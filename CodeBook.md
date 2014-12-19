@@ -1,8 +1,3 @@
----
-title: "Codebook"
-output: pdf_document
----
-
 Introduction
 
 The script run_analysis.R performs the 5 steps described in the course project's definition as outlined in the README.md.
@@ -29,4 +24,5 @@ Variables used in script
 
 5.    Average_data is a data frame that has all the relevant averages,  ddply() of Plyr() has a col_means function which simplifies the operation of creating this data frame
      
+
 
