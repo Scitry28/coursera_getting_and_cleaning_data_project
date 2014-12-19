@@ -5,7 +5,6 @@ output: html_document
 
 Introduction
 
-
 The script run_analysis.R performs the 5 steps described in the course project's definition as outlined in the README.md.
 
 First, all the similar data is merged using the rbind() function. By similar, we address those files having the same number of columns and referring to the same entities.
