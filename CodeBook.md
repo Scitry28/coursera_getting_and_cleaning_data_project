@@ -24,10 +24,6 @@ Variables
 
 3.    The "features" df " contains the correct names for the x_data dataset, these are then applied to column names mean_and_std_features (a numeric a numeric vector     used for selection)  activity names are applied in te same fashion.
 
-
 4.    All three data frames (x_data, y_data and subject_data) are merged by column using cbind()
 
 5.     Average_data is a data frame that has all the relevant averages,  ddply() of Plyr() has a col_means function which simplifies the operation of creating this data frame
-
-6
-
