@@ -15,7 +15,11 @@ Lastly a new dataset is generated with avearge measures for each subject and act
 
 Variables used in script
 x_train, y_train, x_test, y_test, subject_train and subject_test contain the data which was downloaded
+
 x_data, y_data and subject_data represent the merged datasets as requested in step 1.
+
 The "features" df " contains the correct names for the x_data dataset, these are then applied to column names mean_and_std_features (a numeric vector used for selection), activity name are applied in the same fashion.
+
 All three data frames (x_data, y_data and subject_data) are merged by column using cbind().
+
 Average_data is a data frame that has all the relevant averages,  ddply() of Plyr() has a col_means function which simplifies the operation of creating this data frame
