@@ -1,6 +1,6 @@
 ---
 title: "Codebook"
-output: html_document
+output: pdf_document
 ---
 
 Introduction
