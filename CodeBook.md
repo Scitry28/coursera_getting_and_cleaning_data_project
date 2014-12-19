@@ -1,3 +1,8 @@
+---
+title: "Codebook"
+output: html_document
+---
+
 Introduction
 
 
@@ -24,3 +29,4 @@ Variables used in script
 4.    All three data frames (x_data, y_data and subject_data) are merged by column using cbind()
 
 5.     Average_data is a data frame that has all the relevant averages,  ddply() of Plyr() has a col_means function which simplifies the operation of creating this data frame
+
