@@ -14,6 +14,7 @@ Lastly a new dataset is generated with avearge measures for each subject and act
 
 
 Variables used in script
+
 x_train, y_train, x_test, y_test, subject_train and subject_test contain the data which was downloaded
 
 x_data, y_data and subject_data represent the merged datasets as requested in step 1.
