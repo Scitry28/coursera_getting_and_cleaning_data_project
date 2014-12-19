@@ -9,15 +9,12 @@ All the data is read in and then similar data (same number of columns and referr
 
 Columns with the mean and standard deviation measures only are taken from the dataset of all the merged data. This is done by parsing the dataset with the grep() function.  Then the correct names from features.txt are applied to the columns we extracted. Using names() and the features data fram created earlier.
 
-
-
 We then substitue activity names and IDs from activity.labels.txt in  a similar fashion and clean up any other column names.
 
 Lastly a new dataset is generated with avearge measures for each subject and activity.
 
 
-
-Variables
+Variables used in script
 1.    x_train, y_train, x_test, y_test, subject_train and subject_test contain the data which was downloaded
 
 2.    x_data, y_data and subject_data represent the merged datasets as requested in step 1. 
