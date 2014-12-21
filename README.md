@@ -20,7 +20,8 @@ The features (561 of them) are unlabeled and can be found in the x_test.txt. The
 
 The same holds for the training set.
 
-This data was downloaded and placed in the folowing directory: ~classfiles/coursera_getting_and_cleaning_data_project
+This data was downloaded and placed in the following directory: ~classfiles/coursera_getting_and_cleaning_data_project
+This script requires library(plyr)
 
 
 A script called run_analysis.R was created which will do the following as required by the prroject: 
